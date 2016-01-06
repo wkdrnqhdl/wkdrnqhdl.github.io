@@ -1,0 +1,170 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body, body *{
+	margin: 0;
+	padding: 0;
+}
+li{
+	display: block;
+}
+.main{
+	margin:0 auto;
+	height: 100%;
+}
+
+
+.content > div{
+	height: 650px;
+	overflow: hidden;
+	position: relative;
+}
+/*logo*/
+.logo {
+	position: absolute;
+	color: #B7B7F5;
+	font-weight: bold;
+	font-size: 28px;
+	margin-top: 7px;
+}
+/*logo end*/
+
+/*nav*/
+.navElement{
+	position: absolute;
+	width: 100%;
+	background: rgba(0,0,0,0.8);
+	z-index: 100;
+}
+.navBox{
+	width: 1000px;
+	margin: 0 auto;
+	height: 48px;
+}
+.navElement ul{
+	display: inline;
+	float: right;
+}
+.navElement ul li{
+	display: block;
+	float: right;
+	padding: 15px 70px;
+}
+.navElement ul li span{
+	color:#fff;
+	cursor: pointer;
+	font-size: 14px;
+	font-family: "Nanum Gothic", sans-serif;
+	-ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=$ieopacity)';
+	filter: alpha(opacity=65);
+	white-space: nowrap;
+	-webkit-transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+	transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+	-webkit-tap-highlight-color: transparent;
+	outline-offset: -7px;
+}
+.navElement ul li span:hover {
+	opacity: 0.65;
+}
+/*nav end*/
+.transition{
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 40px;
+	-webkit-margin-end: 40px;
+}
+.body1 .bg1{
+	background-image: url("img/desolate_forest.jpg");
+	height: 650px;
+	background-size: 100%;
+	
+}
+.body1 .b1img{
+	background-image: url("img/makgeolli.png");
+	background-repeat: no-repeat;
+	height: 402px;
+	width: 135px;
+	float: left;
+}
+.body1 .b1t1{
+	margin-left: 200px;
+	margin-top: 100px;
+}
+.bfont{
+	font-size: 80px;
+	font-family: "Gulim";
+	font-weight: bold;
+	font-size: 80px;
+	color: #b4be87;
+	text-shadow: 0px 0px 3px rgba(0,0,0,0.75);
+}
+.body1 > div{
+	padding-top: 190px;
+}
+
+.body1 .b1t2{
+	margin-top: 50px;
+}
+.sfont{
+	font-size: 22px;
+	font-family: "Gulim";
+	font-weight: bold;
+	color: #b4be87;
+	text-shadow: 0px 0px 2px rgba(0,0,0,0.75);
+	line-height: 34px;
+}
+
+
+
+.body2 .bg2{
+	background-image: url("img/BQ6IevO.jpg");
+	height: 800px;
+	background-size: 100%;
+	-webkit-filter: blur(3px);
+}
+.body2 > div{
+	padding-top: 120px;
+}
+.body2 .b2img{
+	background-image: url("img/makgeolli.png");
+	background-repeat: no-repeat;
+	height: 402px;
+	width: 135px;
+	float: left;
+}
+.b2t1{
+	padding-top: 190px;
+	float:left;
+}
+
+.body3{
+	background-image: url("img/hxtvqcinojxmwnrbivhd.jpg");
+	height: 800px;
+	background-size: 100%;
+}
+.body3 > div{
+	padding-top: 120px;
+}
+.body3 .b3img{
+	background-image: url("img/makgeolli.png");
+	background-repeat: no-repeat;
+	height: 402px;
+	width: 135px;
+	float: left;
+}
+
+
+
+
+
+
+
+.con-center{
+	width: 1000px;
+	margin: 0 auto;
+}
+.bg {
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+	top: 0;
+}
